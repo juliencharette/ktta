@@ -1,0 +1,18 @@
+{#
+    Language switcher
+    Redirects users to the same page in the selected language.
+    Redirects to error page in case no content available in the target language.
+#}
+{% for language in kirby.languages %}
+	{% if language.code != kirby.language %}
+		{%
+            set url =
+                    page.translation(language.code).exists() ?
+                    page.url(language.code) :
+                    page('error').url(language.code)
+        %}
+		<a href="{{ url }}">
+			{{ html(language.name) }}
+		</a>
+	{% endif %}
+{% endfor %}
