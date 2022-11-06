@@ -57,3 +57,7 @@ Icon
 # ---------------
 /kirby
 /vendor
+
+# Node Modules
+# ---------------
+/node_modules
