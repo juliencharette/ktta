@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'debug' => true,
+    'error'     => '404',
     'languages' => true
 ];

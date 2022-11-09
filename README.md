@@ -19,20 +19,14 @@ KTTA is a project boilerplate that stands for:
 ## Get Started
 
 1. Clone this repository.
-2. Run `composer install && npm install` from the project root.
+2. Run `npm run setup` from the project root.
 3. On the browser, go to `/panel`.
 4. Create your main admin account.
 
-If you want to use PHP's built-in server, you have to start it up with Kirby's router:
-
-`php -S localhost:8000 kirby/router.php`
-
 ## To Do
 
--   Add TailwindCSS
--   Add AlpineJS
+-   Add Vite bundler
 -   Add frequently used plugins
--   Rework folder structure
 
 ## Documentation
 

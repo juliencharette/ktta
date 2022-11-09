@@ -7,8 +7,9 @@ Icon
 # Temporary files
 # ---------------
 
+/storage/media/*
 /public/media/*
-!/media/index.html
+/public/media
 
 # Lock files
 # ---------------
@@ -51,13 +52,21 @@ Icon
 
 # Plugins
 # ---------------
+
 /site/plugins/*
 
 # Kirby Core
 # ---------------
+
 /kirby
 /vendor
 
 # Node Modules
 # ---------------
+
 /node_modules
+
+# ENV configs
+# ---------------
+
+/site/config/env.php
