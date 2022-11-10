@@ -1,4 +1,16 @@
-Title: Accueil
+Title: KTTA
+
+----
+
+Text:
+
+KTTA est un gabarit de projet qui signifie :
+Kirby CMS + Twig + Tailwindcss + AlpineJS
+
+- (link: https://getkirby.com/docs/guide text: Documentation Kirby)
+- (link: https://twig.symfony.com/doc/3.x/ text: Documentation Twig)
+- (link: https://tailwindcss.com/docs/installation text: Documentation Tailwind)
+- (link: https://alpinejs.dev/start-here text: Documentation AlpineJS)
 
 ----
 

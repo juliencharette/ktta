@@ -4,24 +4,49 @@
 Icon
 .DS_Store
 
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+
+*.sublime-workspace
+/.vscode
+/.idea
+
+# Node Modules
+# ---------------
+
+/node_modules
+
+# Lock files
+# ---------------
+
+.lock
+.dev
+
+# Kirby Core
+# ---------------
+
+/kirby
+/vendor
+
+# Plugins
+# ---------------
+
+/site/plugins/*
+!/site/plugins/custom
+
+# Frontend
+# ---------------
+
+/public/assets/
+/public/dist/
+
 # Temporary files
 # ---------------
 
 /storage/media/*
 /public/media/*
 /public/media
-
-# Lock files
-# ---------------
-
-.lock
-
-# Editors
-# (sensitive workspace files)
-# ---------------------------
-*.sublime-workspace
-/.vscode
-/.idea
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -45,26 +70,16 @@ Icon
 /storage/sessions/*
 !/storage/sessions/index.html
 
+# Logs
+# ---------------
+
+/storage/logs/*
+!/storage/logs/index.html
+
 # License
 # ---------------
 
 /site/config/.license
-
-# Plugins
-# ---------------
-
-/site/plugins/*
-
-# Kirby Core
-# ---------------
-
-/kirby
-/vendor
-
-# Node Modules
-# ---------------
-
-/node_modules
 
 # ENV configs
 # ---------------

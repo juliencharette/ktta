@@ -1,5 +1,13 @@
-Title: Home
+Title: KTTA
 
 ----
 
-Uuid: NW8hcWllX50xpPTr
+Text:
+
+KTTA is a project boilerplate that stands for:
+Kirby CMS + Twig + Tailwindcss + AlpineJS
+
+- (link: https://getkirby.com/docs/guide text: Kirby Documentation)
+- (link: https://twig.symfony.com/doc/3.x/ text: Twig Documentation)
+- (link: https://tailwindcss.com/docs/installation text: Tailwind Documentation)
+- (link: https://alpinejs.dev/start-here text: AlpineJS Documentation)

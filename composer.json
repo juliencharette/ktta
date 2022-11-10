@@ -19,7 +19,8 @@
   "require": {
     "php": ">=7.4.0 <8.2.0",
     "getkirby/cms": "^3.6",
-    "amteich/kirby-twig": "^4.1"
+    "amteich/kirby-twig": "^4.1",
+    "arnoson/kirby-vite": "^3.0"
   },
   "config": {
     "allow-plugins": {

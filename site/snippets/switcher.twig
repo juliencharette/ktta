@@ -11,7 +11,7 @@
                     page.url(language.code) :
                     page('error').url(language.code)
         %}
-		<a href="{{ url }}">
+		<a href="{{ url }}" class="underline underline-offset-8 text-sm dark:text-slate-400 dark:hover:text-white">
 			{{ html(language.name) }}
 		</a>
 	{% endif %}

@@ -8,11 +8,12 @@ $kirby = new Kirby([
         'base'     => $base    = dirname(__DIR__),
         'site'     => $base . '/site',
         'storage'  => $storage = $base . '/storage',
-        'content'  => $storage . '/content',
         'accounts' => $storage . '/accounts',
         'cache'    => $storage . '/cache',
-        'sessions' => $storage . '/sessions',
+        'content'  => $storage . '/content',
+        'logs'     => $storage . '/logs',
         'media'    => $storage . '/media',
+        'sessions' => $storage . '/sessions',
     ]
 ]);
 
